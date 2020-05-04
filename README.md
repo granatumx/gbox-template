@@ -116,7 +116,7 @@ gboxes:
           extractFrom: Transposed assay
 ```
 
-For a full description of all available fields, check out the "gbox_installer/jsonSchemas/IGboxSpec.json" file. Two key fields are briefly described below.
+For a full description of all available fields, check out the [`index.d.ts`](https://github.com/granatumx/install-gbox/blob/master/types/index.d.ts) file. Two key fields are briefly described below.
 
 The "endpoints" field contains the logic which will connect a user's pipeline to your Gbox backend. In this example, the Gbox backend is a docker image, and the command to be executed when the user runs your Gbox is "python ./main.py". You can look at the g_packages folder for examples of other backend configuration options.
 
